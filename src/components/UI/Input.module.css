@@ -1,0 +1,27 @@
+.form-control {
+    width: 100%;
+    padding: .6rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+
+.form-control label {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+.form-control input {
+    width: 100%;
+    padding: .5rem;
+}
+
+.form-control.invalid input {
+    border-color: red;
+    background-color: rgb(241, 205, 205);
+}
+
+.form-control.invalid p {
+    color: red;
+    font-size: .8rem;
+}
